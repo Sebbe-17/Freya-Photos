@@ -1,0 +1,116 @@
+body {
+  background-color: rgb(32, 32, 32);
+  color: #fff;
+  line-height: 1.5;  /* For better readability */
+}
+/* Main Title */
+ h1.title {  
+    color: #cc99ff;
+    text-align: center;
+    font-size: 2.5em;
+    margin: 20px;
+}
+
+/* Navigation-bar */
+ul.nav_bar {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style-type: none;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ebebeb;
+    border: solid #cc99ff;
+  }
+  li {
+    float: left;
+  }
+  li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+  }
+  a:hover:not(.active) {
+    background-color: #cc99ff;
+  }
+  .active {
+    color: black;
+    background-color:#a569e0;
+  }
+
+
+  /* Page 1 (Index) (Home) */
+  img.img3 {  /* Image */
+    display: block;
+    border: solid 2px #cc99ff;
+    height: 300px;
+  }
+
+
+  /* Page 2 (Handla) (Services) */
+  img.img2 {  /* Image (Also for page 3) */
+    display: block;
+    border: solid 2px #cc99ff;
+    height: 200px;
+  }
+
+  .row {  /* Image row  */
+    display: flex;
+  }
+  .column {
+    flex: 33.33%;
+  }
+
+
+  /* Page 3 (foton) (Images) */
+
+
+  /* Page 4 (Om_oss) (About us) */
+  h2.about {
+    text-decoration: underline;
+    font-size: 1.8em;
+    margin: 20px;
+    color: #cc99ff;
+  }
+  pre.about {  /* Preformatted text */
+    font-size: 1.2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: lightgray;
+    padding: 20px;
+    border: solid 2px #cc99ff;
+    border-radius: 15px;
+    /* Fit long words in the container */
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    
+  }
+
+
+  /* Page 5 (Kontakta oss) (Contact us) */
+  table.Table_Right, th, td {  /* Table */
+    border: solid 2px #cc99ff;
+    padding: 8px;
+    border-radius: 15px;
+    font-size: 1.2em;
+    margin-left: auto;
+  }
+
+  img.img1 {  /* Image */
+    display: block;
+    margin-left: auto;
+    border: solid 2px #cc99ff;
+  }
+
+
+  /* Other */
+  h2 {  /* Heading (all) */
+    color: #cc99ff;
+    font-size: 2em;
+    margin: 20px;
+  }
+  p {  /* Paragraphs (all) */
+    font-size: 1.5em;
+    margin: 20px;
+  }
+  a.link {  /* Links (all) */
+    color: #cc99ff;
+  }
